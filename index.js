@@ -26,7 +26,7 @@ module.exports = {
                 var isInline = !(tex[0] == "\n");
                 var output = katex.renderToString(tex, {
                     displayMode: !isInline,
-                    leqno: true,
+                    leqno: false,
                     output: "htmlAndMathml"
                 });
 

@@ -1,11 +1,12 @@
 Math typesetting using KaTex in Gitbook
 ==============
 
-As the gitbook official plugin named katex was not maintained. So here is the enhanced version basesd the [official version](https://github.com/GitbookIO/plugin-katex)
+As the gitbook official plugin named katex was not maintained. So here is the enhanced version basesd the [official version](https://github.com/GitbookIO/plugin-katex).
 
 ## New features
-- Display math has `\tags` rendered on the left instead of the right, like `\usepackage[leqno]{amsmath}` in LaTeX. 
+- Display math has `\tag` rendered on the right, like `\usepackage{amsmath}` in LaTeX. 
 - Outputs HTML for visual rendering and includes MathML for accessibility.
+- Using Katex 0.11.1
 
 ## Install
 
